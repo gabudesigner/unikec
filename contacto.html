@@ -1,0 +1,129 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>Unik | Calidad a Tu Alcance</title>
+<link rel="shortcut icon" type="image/x-icon" href="favicon.ico" />
+<meta name="robots" content="index, follow">
+<meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+<link rel="stylesheet" href="uk_dat/css/cssunik.css" type="text/css" />
+<script type="text/javascript" src="uk_dat/js/jquery-3.1.1.min.js"></script>
+
+<!-- Facebook Pixel Code -->
+<script>
+  !function(f,b,e,v,n,t,s)
+  {if(f.fbq)return;n=f.fbq=function(){n.callMethod?
+  n.callMethod.apply(n,arguments):n.queue.push(arguments)};
+  if(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version='2.0';
+  n.queue=[];t=b.createElement(e);t.async=!0;
+  t.src=v;s=b.getElementsByTagName(e)[0];
+  s.parentNode.insertBefore(t,s)}(window, document,'script',
+  'https://connect.facebook.net/en_US/fbevents.js');
+  fbq('init', '205998589988821');
+  fbq('track', 'PageView');
+</script>
+<noscript><img height="1" width="1" style="display:none" src="https://www.facebook.com/tr?id=205998589988821&ev=PageView&noscript=1"/></noscript>
+<!-- End Facebook Pixel Code -->
+
+<style type="text/css">
+@import url('https://fonts.googleapis.com/css?family=Arimo|Fjalla+One|Lobster|Roboto');
+*, body, html{margin:0;padding:0;font-family: 'Roboto', sans-serif;}
+body,html{width:100%; height:100%;}
+body{background:#EFEFEF;}
+#sld_t{width:100%; text-align:center; padding-top:25px;}
+@media screen and (max-width:480px) {#sld_t{padding-top:2%;}}
+
+/********* style form *************************/
+form.contacto fieldset{border:none; width:90%; padding:25px 0;}
+form.contacto input[type="text"], form.contacto textarea{
+	width:86%; padding:8px; margin:15px 0; color:#333; border: 1px solid #999; color: #626262;
+	-webkit-transition: all 0.1s linear; -moz-transition: all 0.1s linear; }
+form.contacto input[type="text"]:focus, form.contacto textarea:focus {background: #F9F9F9; border: 1px solid #D3D3D3; outline: none; width:89%;}
+form.contacto button {font-size:11px; background: #C00; border: 0 none; color: #FFFFFF; height: 32px; padding: 0 10px; text-transform: uppercase; cursor:pointer;
+	-webkit-transition: all 0.2s linear; -moz-transition: all 0.2s linear; }
+form.contacto button:hover{background: #6A6A6A;}
+
+/** FRAGMENTO ERROR + LOADGID **/
+span.error{font-size:11px; background:#630; color:#FFFFFF; padding:5px; position:absolute; float:left; margin-top:10px; margin-left:-70px;}
+.hide{display: none;} .ajaxgif{right:150px;top:5px;}
+.msg{color:white;font-weight:bold;height:32px;line-height:32px;padding:0 10px;text-transform:uppercase; margin-bottom:15px; width:180px; font-size:14px; letter-spacing:0.05em; text-align:center;}
+.msg_ok{background:#589D05;}    .result{background: red;}
+</style>
+
+</head> <body>
+
+<script> /*seguimiento fb: cliente potencial*/ fbq('track', 'Lead'); </script>
+
+<div class="cntact"> <!-- START PAGE UNIK -->
+
+<header> 
+<div class="slider sl_cont"> <!--SLIDERBACK--> <div id="sld_t"> 
+  <a href="/"><img src="uk_dat/img/logo2_wh.svg" id="lg" border="0" alt=""/></a>
+
+<div class="sl_txt"> <p>Calidad al alcance de su bolsillo</p> <span>Cientos de productos para uso escolar, el hogar y la oficina</span>
+</div> </div> </div>
+</header>
+
+<!-- PRINCIPAL PAGE -->
+<article> <section class="mst-cntact">
+
+<div class="mst-cntxt">
+<span><strong>Contacta hoy mismo </strong>con la mejor Calidad a Tu Alcance</span>
+<p>Forma parte de nuestros distribuidores autorizados llenando el siguiente formulario. Dejános tus datos y nos comunicamos contigo, para entregarte los mejores productos en suministros de oficina y artículos escolares.</p> 
+
+<p style="font-size:12px;color:#900;font-style:italic;"> <strong>(*) Campos obligatorios para el envío. Activa el formulario pulsando una de las dos opciones.</strong></p>
+
+<form method="post" class="contacto" id="contacto" name="contacto">  <fieldset>  
+<p class="radio"> 
+  <input type="radio" name="selectform" value="Nuevo Distribuidor" id="dist" class="info" />
+   <label for="dist" title="Forma parte de nuestros distribuidores"> Quiero ser Distribuidor<br />
+   <d style="font-size:10px;">Se parte de nuestros distribuidores</d></label>
+	 <input type="radio" name="selectform" value="Consulta Distribuidor" id="cons" class="info" />
+   <label for="cons"> Ya soy Distribuidor<br />
+   <d style="font-size:10px;">Haznos saber tus sugerencias</d></label>
+</p>
+
+<div class="da">
+  <input type="text" class="nombre" name="nombre" placeholder="* Nombre Completo" id="tx" autocomplete="off"/>
+  <input type="text" class="email" id="tx" name="email" placeholder="*  Correo electrónico" autocomplete="off" />
+
+  <!-- Validación de números -->
+  <script type="text/javascript">//validación de números en el cuadro de texto
+      function validar(e) { 
+        tecla = (document.all) ? e.keyCode : e.which;
+        if (tecla==8) return true; //Tecla de retroceso (para poder borrar)
+        //if (tecla==44) return true; //Coma ( En este caso para diferenciar los decimales - en casos de valores decimales )
+      	if (tecla==32) return true;//espacio
+      	if (tecla==40) return true;// tecla (
+      	if (tecla==41) return true;// tecla )
+      	if (tecla==45) return true;// tecla -
+      	if (tecla==48) return true;
+        if (tecla==49) return true;
+        if (tecla==50) return true;
+        if (tecla==51) return true;
+        if (tecla==52) return true;
+        if (tecla==53) return true;
+        if (tecla==54) return true;
+        if (tecla==55) return true;
+        if (tecla==56) return true;
+      	if (tecla==57) return true;
+      	if (tecla==13) return true; //tecla enter
+        patron = /1/; //ver nota
+        te = String.fromCharCode(tecla);
+        return patron.test(te); 
+      } 
+</script>
+
+  <input type="text" onKeyPress="return validar(event)" class="telefono" id="tx" name="telefono" placeholder="* Número de Contacto" autocomplete="off" />
+  <input type="text" class="ciudad" id="tx" name="ciudad" placeholder="* Ciudad o Dirección Domicilidiaria" autocomplete="off" />
+  <input type="text" class="empresa" id="tx" name="empresa" placeholder="* Empresa o Negocio" autocomplete="off" />
+  <textarea cols="30" rows="5" id="tx" class="mensaje" name="mensaje" placeholder="* Sugerencias y/o Comentarios" autocomplete="off" ></textarea></div>
+  <div class="ultimo">  <img src="ajax.gif" class="ajaxgif hide" alt=""/>	<div class="msg" id="mmg"></div>
+				<button class="boton_envio" name="submit" type="submit">Enviar Mensaje</button>
+	</div>
+
+</fieldset> </form>
+
+</div>  </section> </article>
+<script type="text/javascript" src="uk_dat/js/jsunik.js"></script>
+<!-- END PAGE UNIK --> </div>   </body> </html>

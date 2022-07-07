@@ -1,0 +1,46 @@
+@charset "utf-8";
+/* CSS Document */
+
+/* PRINCIPAL STYLE */
+header{width:100%; padding-bottom:10px;}
+.master{width:100%; height:100%;}
+
+/* HEADER STYLE */
+.slider{width:100%; height:430px; background:url(../img/back.jpg); background-size:cover; background-repeat:no-repeat; background-position: center center;}
+
+.navimen{width:90%; margin:0 auto; padding-top:10px; position:absolute; top: 0px;}
+.navimen p{color:#FFF; font-family: 'Arimo', sans-serif; font-size:18px; font-weight:600; padding:10px; border:#FFFFFF 2px solid; border-radius:5px; float:right; cursor:pointer; letter-spacing:0.07em;} 
+.navimen p a{text-decoration:none; color:#FFF;}	
+.navimen p:hover{color:#CCC; border:#CCC 2px solid; background:#993300;}
+
+#lg{width:240px; height:auto; padding:20px 0 22px 0;}
+
+#sld_t{width:100%; text-align:center; padding-top:55px;}
+.sl_txt{font-family: 'Arimo', sans-serif; color:#FFFFFF; width:80%; border-bottom:#FFF 1px dotted; margin:0 auto; padding-bottom:20px;} 
+.sl_txt p{font-size:58px; font-family: 'Lobster', cursive; line-height:0.95em; margin-bottom:10px;}
+.sl_txt span{font-size:22px;}
+
+.bot-tab{background-color:#F30; cursor:pointer; padding:10px 20px; border:1px solid #03183A; border-radius:7px; margin-top:30px;}
+.bot-tab:hover{background:#993300; border:#FFF 1px solid;}
+
+@media screen and (max-width:480px) {#sld_t{padding-top:10%;} .sl_txt p{font-size:40px;} .sl_txt span{font-size:16px;} #lg{width:200px;} .navimen p{float:left; margin-left:18px;}}
+
+/* UNIK PAGE */
+.catalog{background:#333333; padding:12px; margin-top:12px; border-radius:5px;
+		-webkit-transition: background-color 200ms linear;
+        -moz-transition: background-color 200ms linear;
+        -o-transition: background-color 200ms linear;
+        -ms-transition: background-color 200ms linear;
+        transition: background-color 200ms linear;}
+.catalog:hover{background-color:#e94e3a;
+        -webkit-transition: background-color 200ms linear;
+        -moz-transition: background-color 200ms linear;
+        -o-transition: background-color 200ms linear;
+        -ms-transition: background-color 200ms linear;
+        transition: background-color 200ms linear; }
+
+/* CONTACT PAGE */
+article section.mst-page{font-size:18px; width:100%; margin:50px 0; overflow:hidden;}
+.mst-tx{width:85%; margin:0 auto; font-family: Arial, Helvetica, sans-serif; margin:0 auto; font-size:20px; color:#666; background:#FFFFFF; padding:30px; border:#DDD 1px solid;}
+.mst-tx span{font-size:27px; color:#000000;}
+.mst-tx p{padding-top:10px; font-size:16px; line-height:2em;}
